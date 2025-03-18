@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otabek's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch">
+        <label for="theme-switch" class="theme-switch-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </label>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="cyber-spinner">
+                <div class="cyber-spinner__circle"></div>
+                <div class="cyber-spinner__line"></div>
+                <div class="cyber-spinner__text">Loading...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header Section -->
+    <header class="cyber-header">
+        <nav>
+            <div class="logo">
+                <div class="logo-glitch" data-text="Otabek">Otabek</div>
+                <span class="blink">_</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#about">About</a>
+                    <div class="dropdown-content">
+                        <a href="#about-skills">Skills</a>
+                        <a href="#about-education">Education</a>
+                        <a href="#about-interests">Interests</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#services">Services</a>
+                    <div class="dropdown-content">
+                        <a href="#web-development">Web Development</a>
+                        <a href="#ui-design">UI/UX Design</a>
+                        <a href="#mobile-dev">Mobile Development</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#skills">Skills</a>
+                    <div class="dropdown-content">
+                        <a href="#frontend">Frontend</a>
+                        <a href="#backend">Backend</a>
+                        <a href="#tools">Tools & Technologies</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#projects">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="#web-projects">Web Projects</a>
+                        <a href="#mobile-projects">Mobile Projects</a>
+                        <a href="#design-projects">Design Projects</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#experience">Experience</a>
+                    <div class="dropdown-content">
+                        <a href="#work-history">Work History</a>
+                        <a href="#achievements">Achievements</a>
+                        <a href="#certifications">Certifications</a>
+                    </div>
+                </li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li class="dropdown">
+                    <a href="#contact">Contact</a>
+                    <div class="dropdown-content">
+                        <a href="#contact-form">Send Message</a>
+                        <a href="#contact-info">Contact Info</a>
+                        <a href="#social-links">Social Links</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="menu-btn">
+                <div class="menu-btn__lines"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="cyber-grid"></div>
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <div class="glitch-wrapper">
+                    <h1 class="cyber-glitch" data-text="Welcome">Welcome</h1>
+                </div>
+                <h2>I'm <span class="gradient-text">Otabek</span></h2>
+                <h3>I'm a <span class="typed-text"></span></h3>
+                <p class="cyber-text">Transforming ideas into digital reality with cutting-edge web solutions.</p>
+                <div class="social-icons">
+                    <a href="#" class="icon-hover" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span class="icon-tooltip">GitHub</span>
+                    </a>
+                    <a href="#" class="icon-hover" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="icon-tooltip">LinkedIn</span>
+                    </a>
+                    <a href="#" class="icon-hover" data-tooltip="Twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span class="icon-tooltip">Twitter</span>
+                    </a>
+                    <a href="#" class="icon-hover" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span class="icon-tooltip">Instagram</span>
+                    </a>
+                </div>
+                <div class="hero-buttons">
+                    <button class="cyber-button">
+                        <span class="cyber-button__content">Explore Work</span>
+                        <span class="cyber-button__glitch"></span>
+                        <span class="cyber-button__label">R25</span>
+                    </button>
+                    <button class="cyber-button cyber-button--secondary">
+                        <span class="cyber-button__content">Download CV</span>
+                        <span class="cyber-button__glitch"></span>
+                        <span class="cyber-button__label">PDF</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="cyber-circle"></div>
+                <div class="profile-container">
+                    <img src="./DALL·E 2025-03-18 23.41.28 - A futuristic cyberpunk-themed portfolio website with a black and white color scheme. The design is sleek and minimalistic, featuring a high-tech, digi.webp" alt="Profile" class="profile-image">
+                    <div class="profile-overlay"></div>
+                    <div class="profile-glitch"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="cyber-glitch" data-text="About Me">About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right">
+                <p>I am a passionate web developer with over 5 years of experience in creating innovative digital solutions. My expertise spans across various technologies and frameworks, allowing me to build robust and scalable applications.</p>
+                <div class="about-features">
+                    <div class="feature" data-tilt>
+                        <i class="fas fa-rocket"></i>
+                        <h3>Fast Learner</h3>
+                        <p>Quick to adapt to new technologies and methodologies</p>
+                        <div class="feature-hover"></div>
+                    </div>
+                    <div class="feature" data-tilt>
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Creative Thinker</h3>
+                        <p>Innovative solutions to complex problems</p>
+                        <div class="feature-hover"></div>
+                    </div>
+                    <div class="feature" data-tilt>
+                        <i class="fas fa-users"></i>
+                        <h3>Team Player</h3>
+                        <p>Excellent collaboration and communication skills</p>
+                        <div class="feature-hover"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats" data-aos="fade-left">
+                <div class="stat-card" data-tilt>
+                    <div class="stat-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>5+</h3>
+                    <p>Years Experience</p>
+                    <div class="stat-progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>100+</h3>
+                    <p>Projects Completed</p>
+                    <div class="stat-progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>50+</h3>
+                    <p>Happy Clients</p>
+                    <div class="stat-progress">
+                        <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- About Sections -->
+        <div id="about-skills" class="about-section">
+            <h3 class="section-subtitle">Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Programming Languages</h4>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Web Technologies</h4>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>HTML5/CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="98"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-education" class="about-section">
+            <h3 class="section-subtitle">Education</h3>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Master's in Computer Science</h4>
+                        <p>University of Technology</p>
+                        <span class="date">2018 - 2020</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Bachelor's in Software Engineering</h4>
+                        <p>Technical University</p>
+                        <span class="date">2014 - 2018</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-interests" class="about-section">
+            <h3 class="section-subtitle">Interests & Hobbies</h3>
+            <div class="interests-grid">
+                <div class="interest-card" data-tilt>
+                    <i class="fas fa-gamepad"></i>
+                    <h4>Gaming</h4>
+                    <p>Exploring virtual worlds and problem-solving through games</p>
+                </div>
+                <div class="interest-card" data-tilt>
+                    <i class="fas fa-book"></i>
+                    <h4>Reading</h4>
+                    <p>Technical books and sci-fi novels</p>
+                </div>
+                <div class="interest-card" data-tilt>
+                    <i class="fas fa-music"></i>
+                    <h4>Music</h4>
+                    <p>Playing guitar and composing electronic music</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="cyber-glitch" data-text="Services">Services</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="services-grid">
+            <div id="web-development" class="service-card cyber-card" data-aos="flip-left" data-tilt>
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Building responsive and dynamic websites using modern technologies.</p>
+                <ul class="service-features">
+                    <li>Custom Website Development</li>
+                    <li>E-commerce Solutions</li>
+                    <li>Web Applications</li>
+                    <li>API Integration</li>
+                </ul>
+                <div class="service-cta">
+                    <button class="cyber-button">
+                        <span class="cyber-button__content">Learn More</span>
+                        <span class="cyber-button__glitch"></span>
+                    </button>
+                </div>
+                <div class="card-glitch"></div>
+            </div>
+            
+            <div id="ui-design" class="service-card cyber-card" data-aos="flip-up" data-tilt>
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive and engaging user interfaces and experiences.</p>
+                <ul class="service-features">
+                    <li>User Interface Design</li>
+                    <li>User Experience Design</li>
+                    <li>Wireframing & Prototyping</li>
+                    <li>Design Systems</li>
+                </ul>
+                <div class="service-cta">
+                    <button class="cyber-button">
+                        <span class="cyber-button__content">Learn More</span>
+                        <span class="cyber-button__glitch"></span>
+                    </button>
+                </div>
+                <div class="card-glitch"></div>
+            </div>
+            
+            <div id="mobile-dev" class="service-card cyber-card" data-aos="flip-right" data-tilt>
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Mobile Development</h3>
+                <p>Developing cross-platform mobile applications.</p>
+                <ul class="service-features">
+                    <li>iOS Development</li>
+                    <li>Android Development</li>
+                    <li>React Native Apps</li>
+                    <li>Flutter Applications</li>
+                </ul>
+                <div class="service-cta">
+                    <button class="cyber-button">
+                        <span class="cyber-button__content">Learn More</span>
+                        <span class="cyber-button__glitch"></span>
+                    </button>
+                </div>
+                <div class="card-glitch"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="cyber-glitch" data-text="Skills">Skills</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-container">
+            <div id="frontend" class="skill-category" data-aos="fade-right">
+                <h3>Frontend Development</h3>
+                <div class="skill-cards">
+                    <div class="skill-card cyber-card" data-tilt>
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML5</h4>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-level="95"></div>
+                        </div>
+                        <ul class="skill-details">
+                            <li>Semantic HTML</li>
+                            <li>Accessibility</li>
+                            <li>SEO Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card cyber-card" data-tilt>
+                        <i class="fab fa-css3-alt"></i>
+                        <h4>CSS3</h4>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-level="90"></div>
+                        </div>
+                        <ul class="skill-details">
+                            <li>Flexbox & Grid</li>
+                            <li>Animations</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card cyber-card" data-tilt>
+                        <i class="fab fa-js"></i>
+                        <h4>JavaScript</h4>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                        <ul class="skill-details">
+                            <li>ES6+</li>
+                            <li>DOM Manipulation</li>
+                            <li>Async Programming</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="backend" class="skill-category" data-aos="fade-left">
+                <h3>Backend Development</h3>
+                <div class="skill-cards">
+                    <div class="skill-card cyber-card" data-tilt>
+                        <i class="fab fa-node-js"></i>
+                        <h4>Node.js</h4>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-level="80"></div>
+                        </div>
+                        <ul class="skill-details">
+                            <li>Express.js</li>
+                            <li>RESTful APIs</li>
+                            <li>Authentication</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card cyber-card" data-tilt>
+                        <i class="fas fa-database"></i>
+                        <h4>Databases</h4>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-level="75"></div>
+                        </div>
+                        <ul class="skill-details">
+                            <li>MongoDB</li>
+                            <li>PostgreSQL</li>
+                            <li>Redis</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card cyber-card" data-tilt>
+                        <i class="fas fa-server"></i>
+                        <h4>DevOps</h4>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-level="70"></div>
+                        </div>
+                        <ul class="skill-details">
+                            <li>Docker</li>
+                            <li>CI/CD</li>
+                            <li>AWS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tools" class="skill-category" data-aos="fade-up">
+                <h3>Tools & Technologies</h3>
+                <div class="tools-grid">
+                    <div class="tool-card cyber-card" data-tilt>
+                        <i class="fab fa-git-alt"></i>
+                        <h4>Version Control</h4>
+                        <p>Git, GitHub, GitLab</p>
+                    </div>
+                    <div class="tool-card cyber-card" data-tilt>
+                        <i class="fas fa-terminal"></i>
+                        <h4>Command Line</h4>
+                        <p>Bash, Zsh, PowerShell</p>
+                    </div>
+                    <div class="tool-card cyber-card" data-tilt>
+                        <i class="fas fa-code-branch"></i>
+                        <h4>Testing</h4>
+                        <p>Jest, Mocha, Cypress</p>
+                    </div>
+                    <div class="tool-card cyber-card" data-tilt>
+                        <i class="fas fa-tools"></i>
+                        <h4>Build Tools</h4>
+                        <p>Webpack, Babel, Vite</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="cyber-glitch" data-text="Projects">Projects</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="projects-container">
+            <div id="web-projects" class="project-category">
+                <h3>Web Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card cyber-card" data-aos="zoom-in" data-tilt>
+                        <div class="project-image">
+                            <img src="https://picsum.photos/400/300" alt="Project 1">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h4>E-Commerce Platform</h4>
+                                    <p>Full-stack e-commerce solution with advanced features</p>
+                                    <div class="project-links">
+                                        <a href="#" class="cyber-button">
+                                            <span class="cyber-button__content">Live Demo</span>
+                                        </a>
+                                        <a href="#" class="cyber-button">
+                                            <span class="cyber-button__content">Source Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A modern e-commerce platform with advanced features</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card cyber-card" data-aos="zoom-in" data-tilt>
+                        <div class="project-image">
+                            <img src="https://picsum.photos/400/301" alt="Project 2">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h4>Social Media Dashboard</h4>
+                                    <p>Analytics dashboard for social media management</p>
+                                    <div class="project-links">
+                                        <a href="#" class="cyber-button">
+                                            <span class="cyber-button__content">Live Demo</span>
+                                        </a>
+                                        <a href="#" class="cyber-button">
+                                            <span class="cyber-button__content">Source Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Social Media Dashboard</h3>
+                            <p>Advanced analytics and management platform</p>
+                            <div class="project-tags">
+                                <span>Vue.js</span>
+                                <span>Express</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="mobile-projects" class="project-category">
+                <h3>Mobile Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card cyber-card" data-aos="zoom-in" data-tilt>
+                        <div class="project-image">
+                            <img src="https://picsum.photos/400/302" alt="Mobile Project 1">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h4>Fitness Tracker App</h4>
+                                    <p>Mobile app for tracking workouts and nutrition</p>
+                                    <div class="project-links">
+                                        <a href="#" class="cyber-button">
+                                            <span class="cyber-button__content">App Store</span>
+                                        </a>
+                                        <a href="#" class="cyber-button">
+                                            <span class="cyber-button__content">Play Store</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Fitness Tracker App</h3>
+                            <p>Comprehensive fitness and nutrition tracking</p>
+                            <div class="project-tags">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="design-projects" class="project-category">
+                <h3>Design Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card cyber-card" data-aos="zoom-in" data-tilt>
+                        <div class="project-image">
+                            <img src="https://picsum.photos/400/303" alt="Design Project 1">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h4>Brand Identity Design</h4>
+                                    <p>Complete brand identity package for tech startup</p>
+                                    <div class="project-links">
+                                        <a href="#" class="cyber-button">
+                                            <span class="cyber-button__content">View Case Study</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Brand Identity Design</h3>
+                            <p>Comprehensive branding solution</p>
+                            <div class="project-tags">
+                                <span>Branding</span>
+                                <span>UI Design</span>
+                                <span>Typography</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="cyber-glitch" data-text="Experience">Experience</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="experience-container">
+            <div id="work-history" class="experience-category">
+                <h3>Work History</h3>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-content cyber-card">
+                            <div class="timeline-header">
+                                <h4>Senior Web Developer</h4>
+                                <span class="company">Tech Company</span>
+                                <span class="date">2020 - Present</span>
+                            </div>
+                            <div class="timeline-body">
+                                <ul>
+                                    <li>Led development team of 5 developers</li>
+                                    <li>Implemented microservices architecture</li>
+                                    <li>Reduced loading time by 40%</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-footer">
+                                <div class="tech-stack">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>AWS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-content cyber-card">
+                            <div class="timeline-header">
+                                <h4>Frontend Developer</h4>
+                                <span class="company">Digital Agency</span>
+                                <span class="date">2018 - 2020</span>
+                            </div>
+                            <div class="timeline-body">
+                                <ul>
+                                    <li>Developed responsive websites</li>
+                                    <li>Implemented modern UI/UX designs</li>
+                                    <li>Optimized performance and SEO</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-footer">
+                                <div class="tech-stack">
+                                    <span>Vue.js</span>
+                                    <span>SASS</span>
+                                    <span>Webpack</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="achievements" class="experience-category">
+                <h3>Achievements</h3>
+                <div class="achievements-grid">
+                    <div class="achievement-card cyber-card" data-aos="flip-left" data-tilt>
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h4>Best Web App Award</h4>
+                        <p>First place in regional hackathon</p>
+                        <span class="achievement-date">2023</span>
+                    </div>
+                    
+                    <div class="achievement-card cyber-card" data-aos="flip-up" data-tilt>
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>Innovation Prize</h4>
+                        <p>Company innovation challenge winner</p>
+                        <span class="achievement-date">2022</span>
+                    </div>
+                    
+                    <div class="achievement-card cyber-card" data-aos="flip-right" data-tilt>
+                        <div class="achievement-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h4>Top Performer</h4>
+                        <p>Recognized for outstanding performance</p>
+                        <span class="achievement-date">2021</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="certifications" class="experience-category">
+                <h3>Certifications</h3>
+                <div class="certifications-grid">
+                    <div class="certification-card cyber-card" data-aos="zoom-in" data-tilt>
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h4>AWS Certified Developer</h4>
+                        <p>Amazon Web Services</p>
+                        <span class="certification-date">2023</span>
+                        <a href="#" class="cyber-button">
+                            <span class="cyber-button__content">View Certificate</span>
+                        </a>
+                    </div>
+                    
+                    <div class="certification-card cyber-card" data-aos="zoom-in" data-tilt>
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h4>Google Cloud Professional</h4>
+                        <p>Google Cloud Platform</p>
+                        <span class="certification-date">2022</span>
+                        <a href="#" class="cyber-button">
+                            <span class="cyber-button__content">View Certificate</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="cyber-glitch" data-text="Testimonials">Testimonials</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonials-slider swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card cyber-card" data-aos="fade-up" data-tilt>
+                            <div class="testimonial-content">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p>"Outstanding work! The website exceeded our expectations. The attention to detail and innovative features truly set our platform apart from competitors."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://i.pravatar.cc/100?img=1" alt="Client">
+                                    <div class="author-info">
+                                        <h4>John Doe</h4>
+                                        <p>CEO, Tech Corp</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="testimonial-card cyber-card" data-aos="fade-up" data-tilt>
+                            <div class="testimonial-content">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p>"Incredible attention to detail and excellent communication throughout the project. The final product was exactly what we needed and more."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://i.pravatar.cc/100?img=2" alt="Client">
+                                    <div class="author-info">
+                                        <h4>Jane Smith</h4>
+                                        <p>Marketing Director</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="cyber-glitch" data-text="Contact">Contact</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+            <div id="contact-info" class="contact-info">
+                <div class="contact-cards">
+                    <div class="contact-card cyber-card" data-aos="flip-left" data-tilt>
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>otabek@example.com</p>
+                        <a href="mailto:otabek@example.com" class="cyber-button">
+                            <span class="cyber-button__content">Send Email</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-card cyber-card" data-aos="flip-up" data-tilt>
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+1 234 567 890</p>
+                        <a href="tel:+1234567890" class="cyber-button">
+                            <span class="cyber-button__content">Call Now</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-card cyber-card" data-aos="flip-right" data-tilt>
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Tashkent, Uzbekistan</p>
+                        <a href="#" class="cyber-button">
+                            <span class="cyber-button__content">View Map</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="contact-form" class="contact-form-container">
+                <form class="contact-form cyber-card" data-aos="fade-up">
+                    <div class="form-header">
+                        <h3>Send Message</h3>
+                        <p>Feel free to reach out for any inquiries or collaboration opportunities.</p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <div class="form-line"></div>
+                        <div class="form-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                        <div class="form-line"></div>
+                        <div class="form-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                        <div class="form-line"></div>
+                        <div class="form-icon">
+                            <i class="fas fa-heading"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                        <div class="form-line"></div>
+                        <div class="form-icon">
+                            <i class="fas fa-comment"></i>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="cyber-button">
+                        <span class="cyber-button__content">Send Message</span>
+                        <span class="cyber-button__glitch"></span>
+                        <span class="cyber-button__label">R25</span>
+                    </button>
+                </form>
+            </div>
+            
+            <div id="social-links" class="social-links">
+                <h3>Connect With Me</h3>
+                <div class="social-grid">
+                    <a href="#" class="social-card cyber-card" data-tilt>
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="social-card cyber-card" data-tilt>
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="social-card cyber-card" data-tilt>
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="#" class="social-card cyber-card" data-tilt>
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cyber-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <h3 class="gradient-text">Otabek</h3>
+                    <p>Creating digital experiences that leave a lasting impression.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="icon-hover"><i class="fab fa-github"></i></a>
+                    <a href="#" class="icon-hover"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="icon-hover"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="icon-hover"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#web-development">Web Development</a></li>
+                    <li><a href="#ui-design">UI/UX Design</a></li>
+                    <li><a href="#mobile-dev">Mobile Development</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive updates and news.</p>
+                <form class="footer-newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="cyber-button">
+                        <span class="cyber-button__content">Subscribe</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-line"></div>
+            <p>&copy; 2024 Otabek. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
